@@ -1,0 +1,1548 @@
+body{
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'prelo_slabbook';
+    src: url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/fonts/preloslab-book-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/fonts/preloslab-book-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'prelo_slabmedium';
+    src: url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/fonts/preloslab-medium-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/fonts/preloslab-medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'prelo_slabsemibold';
+    src: url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/fonts/preloslab-semibold-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/fonts/preloslab-semibold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'prelo_slabbold';
+    src: url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/fonts/preloslab-bold-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/fonts/preloslab-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'prelo_slabextrabold';
+    src: url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/fonts/preloslab-extrabold-webfont.woff2') format('woff2'),
+         url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/fonts/preloslab-extrabold-webfont.woff') format('woff');
+}
+
+.clear{
+    clear: both;
+}
+.box-header{
+    margin: 0 auto;
+    max-width: 980px;    
+    padding: 10px 0;
+    text-align: right;
+}
+#social{   
+    margin: 0 auto;
+    position: relative;
+}
+    #social ul{
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+        vertical-align: middle;
+    }
+        #social ul li{
+            cursor: pointer;
+            display: inline-block;
+            margin: 0 3px;
+            vertical-align: middle;
+        }
+            #social ul li a{
+                cursor: pointer;    
+                height: 36px;
+                width: 36px;
+            }
+                #fb{
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/fb-icon-negro.png?v2) no-repeat 0 0;
+                    background-size: 100% !important;
+                    border: none;
+                    display: inline-block;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+                #wst{                
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/wsp-icon-negro.png?v2) no-repeat 0 0 !important;
+                    background-size: 100% !important;
+                    border: none;
+                    display: none;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+                #tw{            
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/abuso-infantil/img/tw-icon-negro.png?v2) no-repeat 0 0 !important;
+                    background-size: 100% !important;
+                    border: none;
+                    display: inline-block;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+
+
+.box-portada{
+    background: #EAEAEA;
+    position: relative;
+}
+    .box-ctn-portada{
+        margin: 0 auto;
+        max-width: 600px;
+        text-align: left;
+    }
+    .box-main-titular{
+        margin: 0 auto;
+        max-width: 100%;
+        text-align: center;   
+    }
+        .box-main-titular h1{
+            font: 60px/1 'prelo_slabextrabold';
+            margin: 0 auto;
+        }
+            .box-main-titular h1 span{
+                display: block;
+                font-size: 32px;
+            }
+        .box-main-titular h2{
+            font: 23px / 1.2 'prelo_slabbook';
+            margin: 20px auto;
+            max-width: 450px;
+        }
+            .box-main-titular h2 span{
+                background-color: #FFF72F;
+            }
+        a.btn-rojo{
+            background-color: #FF292A;
+            border-radius: 40px;
+            color: #fff;
+            display: block;
+            font: 17px/1.2 'prelo_slabbold';
+            margin: 0 auto;
+            max-width: 300px;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .box-main-titular p{
+            border-left: 1px solid #c2c2c2;
+            font: 16px / 1.5 'prelo_slabbook';
+            margin: 10px 0;
+            max-width: 290px;            
+            padding: 0 0 50px 10px;
+        }
+            .box-main-titular p span{
+                background-color: #fff;                
+            }
+    .box-portada img{  
+        display: none;     
+        max-width: 100%;
+    }
+    ul.presidentes-portada{
+        list-style: none;
+        margin: 0 auto;
+        padding: 0 0 50px;
+        text-align: center;
+    }
+        ul.presidentes-portada li{
+            display: inline-block;
+            margin: 0 10px;
+            max-width: 180px;
+            vertical-align: top;
+        }
+            ul.presidentes-portada li img{
+                display: block;
+                left: 0;
+                position: relative;
+                transform: none;                
+                width: 100%;
+            }
+            ul.presidentes-portada li h5{
+                font: 26px/1 'prelo_slabbold';
+                margin: 0 auto;
+            }
+                ul.presidentes-portada li h5 span{
+                    display: block;
+                    font: 19px/1.1 'prelo_slabsemibold';
+                }
+            ul.presidentes-portada li p{
+                font: 13px / 1.4 'prelo_slabmedium';               
+                margin: 10px auto;
+                max-width: 145px;
+                text-align: left;
+                
+            }
+.box-main{
+    padding-top: 50px;
+}
+    .ctn-box-main{
+        margin: 0 auto;
+        max-width: 980px;
+    }
+        .box-dias{
+            margin: 0 auto;
+            max-width: 500px;
+            padding-bottom: 15px;
+            position: relative;
+        }
+            .dia{
+                background-color: #FF292A;
+                display: inline-block;
+                height: 10px;
+                vertical-align: top;
+                width: 10px;
+            }
+            .box-total{
+                background: #fff;
+                box-sizing: border-box;                
+                left: 50%;
+                padding: 10px;
+                position: absolute;
+                top: -32%;
+                transform: translate(-50%, 50%);
+                width: 35%;
+            }
+                .box-total img{
+                    display: block;
+                    margin: 0 auto;
+                    max-width: 30px;
+                }
+                .box-dias .box-total p{
+                    font: 18px/1 'prelo_slabextrabold';
+                    padding: 0;
+                    text-align: center;
+                }
+                    .box-total p span{
+                        color: #FF292A;
+                        display: block;
+                        font: 40px/1 'prelo_slabextrabold';
+                    }
+        .box-aprobacion{
+            margin: 0 auto 60px;
+            max-width: 500px;
+        }
+        .box-discurso{
+            padding: 0 10px;
+        }
+            .ctn-box-main h3{
+                border-bottom: 1px solid #818181;
+                border-top: 1px solid #818181;
+                color: #606060;
+                font: 22px/1.3 'prelo_slabmedium';
+                margin: 0 25px;
+                max-width: 500px;
+                padding: 10px 0;
+            }
+            .ctn-box-main h6{
+                color: #606060;
+                font: 17px/1.3 'prelo_slabmedium';
+                margin: 20px auto;
+                max-width: 500px;   
+                padding: 0 25px;        
+            }
+                .ctn-box-main h6 img{
+                    display: inline-block;
+                    max-width: 25px;
+                    vertical-align: bottom;
+                }
+            ul.analistas{
+                list-style: none;
+                padding: 0;
+                text-align: center;
+            }
+                ul.analistas li{
+                    cursor: pointer;
+                    display: inline-block;
+                    max-width: 100px;
+                    vertical-align: top;
+                }
+                    ul.analistas li img{
+                        max-width: 60px;
+                        width: 100%;
+                    }
+                    ul.analistas li p{
+                        font: 13px/1.2 'prelo_slabbold';
+                        padding: 0;
+                    }
+                        ul.analistas li p span{
+                            font-family: 'prelo_slabmedium';
+                        }
+            ul.leyenda{
+                margin: 30px auto;
+                max-width: 500px;
+                padding: 0 35px;
+            }
+                ul.leyenda li{
+                    display: inline-block;
+                    margin: 0 10px 0 0;
+                    vertical-align: top;
+                }
+                    ul.leyenda li img{
+                        display: inline-block;
+                        max-width: 20px;
+                        vertical-align: top;
+                    }
+                    ul.leyenda li p{
+                        color: #606060;
+                        display: inline-block;
+                        font: 16px/1.3 'prelo_slabmedium';
+                        padding: 0;
+                        vertical-align: top;
+                    }
+            .ctn-box-main p,
+            .ctn-box-desplegable p,
+            .box-referencias-tiempo p{
+                font: 14px/1.9 'prelo_slabmedium';
+                margin: 0 auto;
+                max-width: 400px;            
+            }
+                .ctn-box-main p,
+                .box-referencias-tiempo p{
+                    box-sizing: border-box;
+                    margin-bottom: 5px;
+                    padding: 0;      
+                    position: relative;              
+                }
+                .box-referencias-tiempo p{
+                    margin-top: 10px;
+                }
+                .ctn-box-main p span{
+                    position: relative;
+                }
+                .ctn-box-main p span img{
+                    left: -35px;
+                    position: absolute;
+                    top: 45%;
+                    width: 20px;                   
+                }
+                .ctn-box-main p span.bold{
+                    display: block;
+                    font-weight: 800;
+                }
+                .ctn-box-main p span.texto::before{
+                }
+                .ctn-box-main p span.politica,
+                .ctn-box-main p span.nacional,
+                .ctn-box-main p span.ecdata,
+                .ctn-box-main p span.economia{
+                    cursor: pointer;
+                }
+                .ctn-box-main p span.politica,
+                .ctn-box-desplegable p span.politica{
+                    background-color: #FFC6DC;
+                }
+                .ctn-box-main p span.nacional,
+                .ctn-box-desplegable p span.nacional{
+                    background-color: #FFF72F;
+                }
+                .ctn-box-main p span.ecdata,
+                .ctn-box-desplegable p span.ecdata{
+                    background-color: #93D9FF;
+                }
+                .ctn-box-main p span.economia,
+                .ctn-box-desplegable p span.economia{
+                    background-color: #7AFFB7;
+                }
+            .box-main-desplegable{
+                background-color: rgba(0, 0, 0, 0.6); 
+                height: 100%;
+                left: 0;
+                opacity: 0;
+                position: fixed;
+                transition: right 0.5s ease-in-out;
+                top: 0;  
+                width: 100%;
+                z-index: -1;
+            }
+                .ctn-box-desplegable{
+                    background-color: #fff;
+                    border: 1px solid #000;
+                    box-sizing: border-box;
+                    height: 80%;
+                    left: 50%;
+                    margin: 0 auto;
+                    max-width: 600px;  
+                    padding: 40px 20px;
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    top: 50%;      
+                    width: 30%;      
+                }
+                    .ctn-box-desplegable p{
+                        font-size: 13px;
+                    }
+                    .info-box-desplegable{
+                        max-height: 100%;
+                        overflow-y: scroll;
+                        position: relative;                
+                    }
+                    .btn-cerrar{   
+                        background-color: #000;
+                        box-sizing: border-box;   
+                        cursor: pointer;
+                        padding: 10px 10px 8px;
+                        position: absolute;
+                        right: 0;
+                        top: -42px;
+                    }
+                        .btn-cerrar img{
+                            max-width: 20px;
+                        }
+                    .info-box-desplegable h6{
+                        border-top: 1px solid #606060;
+                        color: #606060;
+                        font: 18px / 1.3 'prelo_slabmedium';
+                        margin: 20px 0;
+                        max-width: 95%;
+                        padding-top: 10px;                
+                    }
+                    .box-periodista{
+                        border-bottom: 1px solid #000;
+                        margin-bottom: 20px;
+                        padding: 0 0 20px;                        
+                    }
+                        .box-periodista img{
+                            display: inline-block;
+                            max-width: 60px;
+                            vertical-align: top;
+                        }
+                        .box-info-periodista{
+                            display: inline-block;
+                            margin: 0 10px;
+                            padding: 10px 0 0;
+                            vertical-align: top;
+                        }
+                            .box-info-periodista h5{
+                                font: 20px/1 'prelo_slabbold';
+                                margin: 0 auto;
+                            }
+                            .box-info-periodista p{
+                                font: 17px/1.3 'prelo_slabmedium';
+                            }
+                .box-main-desplegable.active {
+                    opacity: 1;
+                    z-index: 10;
+                }
+                .box-main-desplegable.salir{
+                    opacity: 0;
+                }
+                .box-video{
+                    margin: 20px auto;
+                    max-width: 90%;
+                }
+                span.chequeo{
+                    display: inline-block;
+                    font: 20px / 1.2 'prelo_slabsemibold';
+                    margin: 20px 0 0;
+                    text-transform: uppercase;
+                    vertical-align: top;                   
+                }
+                    .chequeo-rojo{
+                        color: #FF292A;
+                    }
+                    .chequeo-ambar{
+                        color: #e6a011;
+                    }
+                    .chequeo-verde{
+                        color: #239d17;
+                    }
+        .box-duracion{
+            background-color: #f4f4f4;
+            margin-bottom: 40px;
+            padding: 30px 0;
+        }
+            .box-columna-desktop .box-duracion h5{
+                margin: 0 auto;
+            }
+            .box-duracion h5,
+            .box-palabras h5,
+            .box-referencias h5,
+            .box-palabras-mencionadas h5,
+            .box-ejes-tematicos h5,
+            .box-mencion h5,
+            .box-proyectos-de-ley h5{
+                font: 22px/1.1 'prelo_slabbold';
+                margin: 30px auto;
+                text-align: center;
+            }
+            .box-reloj {
+                margin: 0 auto;
+                position: relative;
+                width: 150px;
+            }            
+                .ctn-box-reloj {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                }    
+                    .lineas-reloj{
+                        background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/discurso-dina-boluarte-2024/img/lineas-reloj.png') no-repeat center top;
+                        background-size: cover;
+                        height: 100%;
+                        position: absolute;
+                        scale: .9;
+                        width: 100%;
+                    }
+                    .ctn-box-reloj span{
+                        color: #000;
+                        font: 22px/1.3 'prelo_slabextrabold';
+                        left: 50%;                        
+                        position: absolute;
+                        transform: translate(-50%, -50%);                       
+                        text-align: center;
+                        top: 50%;
+                        width: 100%;
+                    }
+                .box-reloj-pequeno{
+                    height: 200px;
+                    width: 200px;
+                }
+                    .box-reloj-pequeno span{
+                        font-size: 32px;
+                    }
+            img.flecha{
+                display: block;
+                margin: 0 auto;
+                max-width: 13px;
+            }
+                .box-palabras .left{
+                    margin: 0;
+                }
+            .box-duracion p,
+            .box-palabras p,
+            .box-referencias p{
+                font: 23px/1.1 'prelo_slabmedium';
+                margin: 18px auto;
+                text-align: center;
+            }
+                .box-duracion p span,
+                .box-palabras p span,
+                .box-referencias p span{
+                    display: block;
+                    font-family: 'prelo_slabbold';
+                }
+        .box-palabras{
+            background-color: #f4f4f4;
+            margin: 0 auto;
+            margin-bottom: 40px;
+            max-width: 500px;     
+            padding: 8px 0;      
+        }
+            .box-main-barra{
+
+            }
+                .box-palabras .box-main-barra p{
+                    color: #FF292A;
+                    font: 30px/1.1 'prelo_slabsemibold';
+                    text-align: center;
+                }
+                .box-barra{
+                    margin: 0 auto;
+                    max-width: 350px;
+                }
+                    .box-barra span{
+                        border-right: 1px solid #FF292A;
+                        display: inline-block;
+                        font: 22px / 1.1 'prelo_slabsemibold';                        
+                        padding: 20px 10px 20px 0;
+                        vertical-align: top;                        
+                    }
+                    .barra{
+                        background: #FF292A;
+                        display: inline-block;
+                        height: 50px;                        
+                        margin: 7px auto;
+                        margin-left: -4px;
+                        vertical-align: top;
+                        width: 260px;
+                    }
+            .ctn-flecha{
+                margin: 10px auto;
+                max-width: 230px;
+            }
+            .box-palabras p{
+                max-width: 225px;
+                padding: 0;
+                text-align: left;
+            }
+        .box-referencias{
+            background-color: #f4f4f4;
+            margin: 40px auto;
+            padding: 8px 0;
+        }
+            .box-referencias img{
+                display: block;
+                margin: 0 auto 30px;
+                max-width: 400px;
+            }
+            .box-referencias p{
+                font-size: 25px;
+            }
+        .box-palabras-mencionadas{
+            background-color: #f4f4f4;
+            box-sizing: border-box;
+            padding: 8px 20px 20px;
+        }
+            .ctn-box-palabras-mencionadas{
+                margin: 0 auto;
+                max-width: 500px;
+            }
+                ul.box-numeros{
+                    background: rgb(252,246,246);
+                    background: linear-gradient(0deg, rgba(252,246,246,1) 0%, rgba(219,47,47,1) 100%);
+                    display: none;
+                    list-style: none;
+                    margin: 0 auto;
+                    padding: 0;
+                    vertical-align: top;
+                    width: 15%;
+                }
+                    ul.box-numeros li{
+                        font: 28px/1.3 'prelo_slabbold';
+                        padding: 30px 15px 40px;
+                        text-align: center;
+                    }
+                    ul.box-numeros li:nth-child(1){
+                        padding: 50px 5px 50px;
+                    }
+                    ul.box-numeros li:nth-child(2){
+                        padding: 44px 5px 44px;
+                    }
+                    ul.box-numeros li:nth-child(3){
+                        padding: 25px 5px 25px;
+                    }
+                    ul.box-numeros li:nth-child(4){
+                        padding: 20px 5px 20px;
+                    }
+                    ul.box-numeros li:nth-child(5){
+                        padding: 20px 5px 20px;
+                    }
+                    ul.box-numeros li:nth-child(6){
+                        padding: 15px 15px 15px;
+                    }
+                    ul.box-numeros li:nth-child(7){
+                        padding: 15px 15px 15px;
+                    }
+                    ul.box-numeros li:nth-child(8){
+                        padding: 10px 15px 10px;
+                    }
+                .palabras{
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 100%;
+                }
+                    .palabras .box{
+                        border-bottom: 1px dashed #c2c2c2;
+                        text-align: center;
+                    }
+                        .palabras .box span{
+                            display: inline-block;
+                            font: 15px/1.3 'prelo_slabbold';
+                            padding: 15px 0;
+                            text-align: center;
+                            vertical-align: top;
+                            width: 20%;                            
+                        }
+                        .palabras .box:last-child{
+                            border-bottom: none;
+                        }
+                        .palabras .box p{
+                            display: inline-block;
+                            font-family: 'prelo_slabmedium';
+                            line-height: 1;
+                            margin: 0;
+                            padding: 0 10px;
+                            vertical-align: top;
+                            width: 65.8%;
+                        }
+                            .palabras .box:nth-child(1) p{
+                                font-size: 30px;
+                                padding: 0 10px;
+                                margin-top: 12px;                            
+                            }
+                            .palabras .box:nth-child(2) p{
+                                font-size: 27px;
+                                margin-top: 12px;
+                                padding: 0 10px;
+                            }
+                            .palabras .box:nth-child(3) p{
+                                font-size: 25px;
+                                margin-top: 15px;
+                                padding: 0 10px;
+                            }
+                            .palabras .box:nth-child(4) p{
+                                font-size: 24px;
+                                margin-top: 15px;
+                                padding: 0 10px;
+                            }
+                            .palabras .box:nth-child(5) p{
+                                font-size: 22px;
+                                margin-top: 15px;
+                                padding: 0 10px;
+                            }
+                            .palabras .box:nth-child(6) p{
+                                font-size: 21px;
+                                margin-top: 15px;
+                                padding: 0 10px;
+                            }
+                            .palabras .box:nth-child(7) p{
+                                font-size: 20px;
+                                margin-top: 15px;
+                                padding: 0 10px;
+                            }
+                            .palabras .box:nth-child(8) p{
+                                font-size: 15px;
+                                margin-top: 15px;
+                                padding: 0 10px;
+                            }
+                            .palabras .box:nth-child(1) span{
+                                background-color: #dc3132;
+                            }
+                            .palabras .box:nth-child(2) span{
+                                background-color: #d95c5d;
+                            }
+                            .palabras .box:nth-child(3) span{
+                                background-color: #ea7e7f;
+                            }
+                            .palabras .box:nth-child(4) span{
+                                background-color: #f4a0a1;
+                            }
+                            .palabras .box:nth-child(5) span{
+                                background-color: #fdc5c6;
+                            }
+                            .palabras .box:nth-child(6) span{
+                                background-color: #fdd7d8;
+                            }
+                            .palabras .box:nth-child(7) span{
+                                background-color: #ffe8e8;
+                            }
+                            .palabras .box:nth-child(8) span{
+                                background-color: #fff3f3;
+                            }
+.box-columna-movil{
+    display: none;
+}
+
+.box-columna-desktop{
+    text-align: center;
+}
+    .columna-izq,
+    .columna-der{
+        display: inline-block;
+        max-width: 49%;
+        vertical-align: top;
+    }
+        .columna-der{
+            position: relative;
+            text-align: left;
+        }
+        #text-container{
+            max-height: 2795px;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+        }
+            #text-container.expanded {
+                max-height: 46000px;
+            }
+        .box-ver-mas{
+            background: rgb(255,255,255);
+            background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+        }
+            #toggle-button,
+            #toggle-button-movil {    
+                background-color: #fff;    
+                border: 1px solid #c2c2c2;    
+                border-radius: 5px;
+                cursor: pointer;   
+                display: block;
+                margin: 0 auto;     
+                max-width: 200px;  
+                padding: 5px 10px;                                 
+            }
+#text-container-movil {
+    max-height: 1500px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+    #text-container-movil.expanded{
+        max-height: 69000px;
+    }
+.box-metodologia{
+    background-color: #F7F7F7;
+    border: 1px solid #707070;
+    margin: 80px auto 40px;
+    max-width: 500px;
+    padding: 20px 0;
+}        
+    .box-metodologia h6{
+        color: #252525;
+        font: 18px/1.3 'prelo_slabbold';
+        margin: 0 20px;
+        text-align: center;
+    }
+    .box-metodologia p{
+        font: 14px/1.7 'prelo_slabmedium';
+        padding: 0 40px;
+    }
+        .box-metodologia p span{
+            font-family: 'prelo_slabbold';
+        }
+
+.box-tipo-de-discurso,
+.box-duracion-discurso,
+.box-numero-palabras,
+.box-referencias-tiempo,
+.box-palabras-mas-mencionadas,
+.box-analisis-sentimiento{
+    margin: 80px auto 40px;
+}
+    .box-tipo-de-discurso h3,
+    .box-duracion-discurso h3,
+    .box-numero-palabras h3,
+    .box-palabras-mas-mencionadas h3,
+    .box-referencias-tiempo h3,
+    .box-analisis-sentimiento h3,
+    .box-slider-palabras h3,
+    .box-slider-sentimiento h3{
+        font: 22px / 1.3 'prelo_slabbold';
+        margin: 0 auto;
+        text-align: center;
+    }
+        .box-tipo-de-discurso h3 span,
+        .box-duracion-discurso h3 span,
+        .box-numero-palabras h3 span,
+        .box-palabras-mas-mencionadas h3 span,
+        .box-referencias-tiempo h3 span,
+        .box-analisis-sentimiento h3 span,
+        .box-slider-palabras h3 span,
+        .box-ejes-tematicos h5 span,
+        span.indicacion{
+            display: block;
+            font: 13px / 1.7 'prelo_slabmedium';
+            margin: 0 auto;
+            text-transform: uppercase;
+        }
+        span.indicacion{
+            text-align: center;
+        }
+    .box-tipo-de-discurso img{
+        display: block;
+        margin: 20px auto;
+        max-width: 650px;
+    }
+
+.box-duracion-discurso{
+    margin-top: 80px;
+}
+    .box-duracion-discurso ul{        
+        margin: 30px auto 40px;
+        padding: 0;
+        text-align: center;        
+    }
+        .box-duracion-discurso ul li{
+            display: inline-block;
+            margin: 0 10px;
+            vertical-align: top;
+        }  
+            .box-duracion-discurso ul li h5,
+            .box-ctn-palabras h5{
+                font: 14px/1.3 'prelo_slabmedium';
+                margin: 0 auto 10px;
+            }
+                .box-duracion-discurso ul li h5 span,
+                .box-ctn-palabras h5 span,
+                .box-ejes-tematicos ul li p span,
+                .box-analisis-sentimiento ul li p span{
+                    display: block;
+                    font: 14px / 1.3 'prelo_slabbold';
+                }
+            .box-duracion-discurso ul li img{
+                display: block;
+                margin: 0 auto;
+                max-width: 60px;
+            }
+            .box-duracion-discurso ul li img.flecha-abajo{
+                margin: 10px auto;
+                max-width: 10px;
+            }
+.box-iframe{
+    margin: 30px auto;
+    max-width: 600px;
+}
+.box-palabras-mas-mencionadas{
+    text-align: center;
+}
+    .box-ctn-palabras{
+        box-sizing: border-box;
+        display: inline-block;
+        margin: 0 10px;
+        max-width: 250px;
+        vertical-align: top;
+        width: 170px;
+    }
+        .box-palabras-mas-mencionadas h3{
+           /* margin-bottom: 40px;*/
+        }
+        .box-ctn-palabras img{
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 70px;
+        }
+        .box-ctn-palabras h5,
+        .box-ctn-palabras h5 span{
+            text-align: center;
+        }
+
+.box-ejes-tematicos,
+.box-mencion,
+.box-proyectos-de-ley{
+    margin: 80px auto 40px;
+}
+    .box-ejes-tematicos ul,
+    .box-analisis-sentimiento ul{
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+        .box-ejes-tematicos ul li,
+        .box-analisis-sentimiento ul li{
+            cursor: pointer;
+            display: inline-block;
+            margin: 0 5px;
+            padding: 10px 20px;
+            vertical-align: top;            
+        }
+            .box-ejes-tematicos ul li img,
+            .box-analisis-sentimiento ul li img{
+                display: block;
+                margin: 0 auto;
+                max-width: 70px;
+            }
+            .box-ejes-tematicos ul li p,
+            .box-analisis-sentimiento ul li p{
+                font: 14px/1.1 'prelo_slabmedium';
+                text-align: center;
+            }
+            .box-ejes-tematicos ul li:hover,
+            .box-analisis-sentimiento ul li:hover{
+                background-color: #F0F0F0;
+            }
+    span.separador{
+        background: #F0F0F0;
+        display: inline-block;
+        height: 100px;
+        margin: 10px 0;
+        vertical-align: top;
+        width: 1px;
+    }
+    .box-eje,
+    .box-sentimiento,
+    .box-anuncio{
+        display: none;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    .active-anuncio
+    .active-eje,
+    .active-sentimiento{
+        background-color: #F0F0F0;
+    }
+    #presidents-list-eje .active-eje,
+    #presidents-list-anuncio .active-anuncio{
+        background-color: #F0F0F0;
+    }
+.box-mencion{
+
+}
+    ul.leyenda-mencion,
+    ul.box-mapa{
+        margin-bottom: 40px;
+        padding: 0;
+        text-align: center;
+    }
+        ul.leyenda-mencion li{
+            display: inline-block;
+            font: 14px/1.1 'prelo_slabmedium';
+            margin: 0 5px;
+            vertical-align: top;
+        }
+            ul.leyenda-mencion li span{
+                display: inline-block;
+                height: 5px;
+                margin: 5px 2px 0;                
+                vertical-align: top;
+                width: 50px;                
+            }
+                ul.leyenda-mencion li:nth-child(1) span{
+                    background-color: #3f3f3f;                   
+                }
+                ul.leyenda-mencion li:nth-child(2) span{
+                    background-color: #999999;
+                }
+                ul.leyenda-mencion li:nth-child(3) span{
+                    background-color: #D3D3D3;
+                }
+    ul.box-mapa li{
+        display: inline-block;
+        font: 14px/1.1 'prelo_slabmedium';
+        margin: 0 10px;
+        vertical-align: top;
+        width: 220px;
+    }
+        ul.box-mapa li img.cara{
+            display: block;
+            margin: 0 auto;
+            max-width: 70px;
+        }
+        ul.box-mapa li p{
+            font: 12px/1.1 'prelo_slabmedium';
+        }
+            ul.box-mapa li p span{
+                display: block;
+                font: 14px / 1.3 'prelo_slabbold';
+            }
+            img.bg-mapa{
+                display: block;
+                margin: 30px auto;
+                max-width: 150px;
+            }
+            .box-columna-regiones{
+                display: inline-block;
+                margin: 0 10px;
+                max-width: 90px;
+                text-align: left;
+                vertical-align: top;
+            }
+                .box-columna-regiones p{
+                    margin: 0 auto 10px;
+                }
+                    .box-columna-regiones p.red{
+                        color: #000 !important;
+                        font-weight: 900 !important;
+                    }
+        ul.box-mapa li:nth-child(1){
+            border-right: 1px solid #F0F0F0;
+            margin-right: 0;
+            padding-right: 10px;
+        }
+        ul.box-mapa li:nth-child(2){
+            border-right: 1px solid #F0F0F0;
+            margin-right: 0;
+            padding-right: 10px;
+        }
+        ul.box-mapa li:nth-child(3){
+            border-right: 1px solid #F0F0F0;
+            margin-right: 0;
+            padding-right: 10px;
+        }
+        ul.box-mapa li:nth-child(4){
+            border-right: 1px solid #F0F0F0;
+            margin-right: 0;
+            padding-right: 10px;
+        }
+        .columna-sola{
+            display: block;
+        }
+.box-proyectos-de-ley{
+    margin-bottom: 40px;   
+    text-align: center;
+}       
+    .box-proyecto{
+        display: inline-block;
+        margin: 0 10px;
+        max-width: 250px;
+        vertical-align: top;
+    }
+        .box-proyecto img{
+            display: block;
+            margin: 0 auto;
+            max-width: 70px;
+        }
+        .box-proyecto h6{
+            font: 16px/1.1 'prelo_slabmedium';
+            margin: 10px auto;
+            text-align: center;
+        }
+        p.total{
+            font: 13px/1.1 'prelo_slabmedium';
+            text-align: center;
+        }
+            p.total span{
+                color: #FF292A;
+                display: block;
+                font: 36px/1 'prelo_slabbold';
+            }
+        .ctn-proyectos{
+            border: 1px solid #c3c3c3;
+            border-radius: 10px;
+            box-sizing: border-box;
+            display: inline-block;   
+            margin: 0 auto 11px;         
+            vertical-align: top;
+            width: 220px;
+        }
+            .box-head{
+                border-bottom: 1px solid #bababa;
+                cursor: pointer;
+                margin: 0 10px 10px;
+                padding: 10px 0;
+                position: relative;
+                text-align: left;                
+            }
+                .box-head h4{
+                    font: 15px/1.1 'prelo_slabmedium';
+                    margin: 0 auto;
+                }
+                .box-head img{
+                    max-width: 15px;
+                    position: absolute;
+                    right: 10px;  
+                    top: 15px; 
+                    
+                    transition: transform 0.3s ease;
+                }
+                    .box-head.active img {
+                        transform: rotate(180deg);
+                    }
+            .box-informacion-proyecto{
+                display: none;
+            }
+            .ctn-proyectos p{                
+                font: 13px/1.6 'prelo_slabmedium';
+                padding: 0 10px;
+                text-align: left;
+            }
+                .ctn-proyectos p span{
+                    color: #FF292A;
+                    display: block;
+                    font: 13px/1.6 'prelo_slabbold';
+                }
+
+.box-slider-palabras,
+.box-slider-mapas,
+.box-slider-sentimiento,
+.box-slider-anuncio{
+    display: none;
+    position: relative;
+}                
+.box-slider-palabras .bx-wrapper,
+.box-slider-mapas .bx-wrapper,
+.box-slider-sentimiento .bx-wrapper{
+    box-shadow: none;
+}
+.bx-wrapper .bx-pager{
+    display: none;
+}
+.bxslider,
+.bxslider-ejes,
+.bxslider-sentimiento,
+.bxslider-anuncio{
+    text-align: center;
+}
+    .bxslider li .box-ctn-palabras img,
+    .bxslider-sentimiento li .box-ctn-palabras img{
+        display: block;
+        max-width: 80px;
+        margin: 0 auto;
+    }
+    .outside{
+        display: none;
+        position: absolute;
+        text-align: center;        
+        /*top: 0;*/
+        width: 100%;
+        z-index: 10;
+    }
+    #slider-prev,
+    #slider-prev-ejes,
+    #slider-prev-mapas,
+    #slider-prev-sentimiento,
+    #slider-prev-anuncio{
+        background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/radiografia-discursos-presidentes/img/flecha-izquierda.png') no-repeat center top;
+        background-size: 100%;
+        display: inline-block;
+        height: 50px;
+        left: 20px;
+        position: absolute;
+        vertical-align: top;
+        width: 50px;
+    }
+    #slider-next,
+    #slider-next-ejes,
+    #slider-next-mapas,
+    #slider-next-sentimiento,
+    #slider-next-anuncio{
+        background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/radiografia-discursos-presidentes/img/flecha-derecha.png') no-repeat center top;
+        background-size: 100%;
+        display: inline-block;
+        height: 50px;
+        position: absolute;
+        right: 20px;
+        vertical-align: top;
+        width: 50px;
+    }
+        #slider-prev a,
+        #slider-next a,
+        #slider-prev-ejes a,
+        #slider-next-ejes a,
+        #slider-prev-mapas a,
+        #slider-next-mapas a,
+        #slider-prev-sentimiento a,
+        #slider-next-sentimiento a,
+        #slider-prev-anuncio a,
+        #slider-next-anuncio a{
+            color: transparent;
+        }
+.bxslider-ejes{
+
+}
+    .bxslider-ejes li img,
+    .bxslider-mapas li img,
+    .bxslider-anuncio li img  {
+        display: block;
+        max-width: 80px;
+        margin: 0 auto;
+    }
+    .bxslider-ejes h5,
+    .bxslider-mapas h5,
+    .bxslider-anuncio h5{
+        font: 17px / 1.3 'prelo_slabmedium';
+        margin: 10px auto;
+    }
+    .bxslider-ejes h5 span,
+    .bxslider-mapas h5 span,
+    .bxslider-anuncio h5 span {
+        display: block;
+        font: 17px / 1.3 'prelo_slabbold';
+    }
+
+    p.bajada-sentimiento{
+        font: 14px / 1.9 'prelo_slabmedium';
+        margin: 10px auto;
+        max-width: 400px;        
+    }
+
+.box-footer{
+    background: #fff;
+    margin: 0 auto;
+    
+    padding: 60px 0 40px;
+    position: relative;  
+    text-align: center;          
+    z-index: 20;
+}
+    .ctn-logo-comercio{
+        border-bottom: 1px solid #707070;
+        border-top: 1px solid #707070;
+        margin: 0 auto 40px;
+        max-width: 900px;        
+        padding: 15px 0;
+    }
+        a.logo-comercio{
+            display: block;
+            margin: 0 auto;
+            max-width: 120px;
+        }
+    .box-creditos{
+        display: inline-block;     
+        margin: 0 30px;
+        text-align: left;   
+        vertical-align: top;
+        width: 200px;
+    }
+        .box-creditos h5{
+            border-bottom: 1px solid #707070;
+            border-top: 1px solid #707070;
+            font: 17px/1.2 'prelo_slabsemibold';
+            margin: 0 auto 20px;
+            padding: 10px 0;
+            text-align: left;
+        }
+        .box-creditos h6{
+            font: 15px/1.2 'prelo_slabbold';
+            margin: 20px auto 0;
+        }
+        .box-creditos p{
+            font: 15px/1.2 'prelo_slabbook';
+            margin: 8px auto;
+        }
+
+.box-desplegables-portada{
+    display: none;
+    margin: 0 auto 20px;
+    max-width: 80%;
+}      
+    .box-desplegables-portada .box-head{
+        background: #fff;
+        border-radius: 10px;
+        margin: 0;
+        padding: 10px;       
+        position: relative;
+    }
+        .box-desplegables-portada .box-head h4{
+            display: inline-block;
+            margin: 15px 0 10px 30px;
+            vertical-align: top;
+        }
+        .box-desplegables-portada .box-head img{
+            max-width: 20px;
+            right: 15px;
+            top: 29px;
+        }
+        .box-desplegables-portada .box-head .cara{ 
+            left: -31px;           
+            max-width: 60px;            
+            position: absolute;            
+            top: 0;
+            vertical-align: top;
+        }
+            .box-desplegables-portada .box-head .cara.cara-toledo{
+                background: url('../img/bg-cara-alejandro-toledo.png') no-repeat center center;
+                background-size: 100%; 
+                height: 60px;
+                width: 60px;
+            }
+            .box-desplegables-portada .box-head .cara.cara-garcia{
+                background: url('../img/bg-cara-alan-garcia.png') no-repeat center center;
+                background-size: 100%; 
+                height: 60px;
+                width: 60px;
+            }
+            .box-desplegables-portada .box-head .cara.cara-ollanta{
+                background: url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/img/bg-cara-ollanta.png') no-repeat center center;
+                background-size: 100%; 
+                height: 60px;
+                width: 60px;
+            }
+            .box-desplegables-portada .box-head .cara.cara-vizcarra{
+                background: url('https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes/img/bg-cara-vizcarra.png') no-repeat center center;
+                background-size: 100%; 
+                height: 60px;
+                width: 60px;
+            }
+            .box-desplegables-portada .box-head .cara.cara-dina{
+                background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/discurso-dina-vs-dina/img/bg-cara-dina-2024.png') no-repeat center center;
+                background-size: 100%; 
+                height: 60px;
+                width: 60px;
+            }
+
+p.metodologia-flourish{
+    font: 13px / 1.5 "Source Sans 3", sans-serif;
+    font-style: normal !important;    
+    margin: 10px auto 20px;
+    max-width: 380px;
+    text-align: left;
+}
+    p.metodologia-flourish span{
+        font-weight: 700;
+    }
+
+.box-mapa .columna-sola p,
+.box-mapa .box-columna-regiones p{
+    color: #bebebe;
+}    
+.box-mapa .columna-sola p span,
+.box-mapa .box-columna-regiones p span{
+    display: inline-block;
+    margin-right: 5px;
+}    
+
+
+@media only screen and (max-width: 640px) { 
+
+    #wst{
+        display: inline-block;
+    }
+
+    .box-total{
+        top: -17%;
+    }
+    .box-portada img{  
+        display: block;   
+    }
+    ul.presidentes-portada{
+        display: none;
+    }
+    .box-main-titular{        
+        margin: 0 20px;
+        max-width: 100%;
+        padding: 50px 0;
+        text-align: center;
+    }
+        .box-main-titular h1{
+            font-size: 40px;
+        }
+            .box-main-titular h1 span{
+                font-size: 27px;
+            }
+        .box-main-titular p{
+            font-size: 19px;
+        }
+    .ctn-box-desplegable{
+        width: 100%;
+    }  
+        .info-box-desplegable{
+            
+        }
+    .box-main{
+        padding: 50px 20px 0;
+    }
+    .box-columna-movil{
+        display: block;
+        position: relative;
+    }
+    .box-columna-desktop{
+        display: none;
+    }
+    .ctn-box-main h3{
+        margin: 0;
+    }
+    .ctn-box-main h6,
+    ul.leyenda{
+        padding: 0;
+    }
+    .ctn-box-main p{
+        padding: 0 15px;
+    }
+    ul.box-numeros li:nth-child(1){
+        padding: 50px 5px 60px;
+    }
+    ul.box-numeros li:nth-child(3){
+        padding: 25px 5px 30px;
+    }
+    ul.box-numeros li:nth-child(4),
+    ul.box-numeros li:nth-child(5){
+        padding: 20px 5px 25px;
+    }
+    ul.box-numeros li:nth-child(6) {
+        padding: 15px 15px 20px;
+    }
+    .box-duracion,
+    .box-palabras,
+    .box-palabras-mencionadas{
+        margin: 40px 0;
+    }
+    ul.analistas li{
+        margin: 10px 20px;
+    }
+    .box-ctn-palabras{
+        max-width: 100%;
+        width: 100%;
+    }
+    .box-palabras-mas-mencionadas,
+    .box-ejes-tematicos,
+    .box-analisis-sentimiento,
+    ul.box-mapa{
+        display: none;
+    }
+    .box-slider-palabras,
+    .box-slider-mapas,
+    .box-slider-sentimiento,
+    .outside{
+        display: block;
+    }
+    .box-slider-palabras,
+    .box-slider-mapas,
+    .box-slider-sentimiento{
+        margin: 80px auto 40px;
+    }
+    .box-ctn-palabras h5 {
+        font: 17px / 1.3 'prelo_slabmedium';
+        margin: 10px auto;
+    }
+        .box-ctn-palabras h5 span{
+            font: 17px / 1.3 'prelo_slabbold';
+        }
+    .bxslider-mapas{
+        text-align: center;
+    }       
+    .box-slider-mapas img.bg-mapa{
+        margin-bottom: 30px;
+        max-width: 60%;
+    }
+    .box-slider-mapas .box-columna-regiones{
+        
+    }
+        .box-slider-mapas .box-columna-regiones p{
+            font: 16px / 1.1 'prelo_slabmedium';
+        }
+
+    .box-proyecto{
+        margin-bottom: 40px;
+        max-width: 100%;
+        width: 90%;
+    }
+        .ctn-proyectos{
+            width: 100%;
+        }
+        .box-proyecto h6{
+            font-size: 20px;
+        }
+        p.total{
+            font-size: 17px;
+        }
+            p.total span{
+                font-size: 40px;
+            }
+            .box-head h4{
+                font-size: 15px;
+            }
+            .ctn-proyectos p{
+                font: 17px / 1.7 'prelo_slabmedium';
+            }
+                .ctn-proyectos p span{
+                    font: 17px / 1.7 'prelo_slabbold';
+                }
+    .ctn-box-main p{
+        font-size: 17px;
+    }
+    ul.leyenda-mencion li{
+        margin: 0 5px 15px;
+    }
+    .box-duracion-discurso ul li{
+        margin: 0 10px 30px;
+    }
+    .box-main-titular h2{
+        font-size: 21px;
+    }
+    .box-desplegables-portada{
+        display: block;
+    }
+
+    .box-columna-regiones{
+        max-width: 110px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+    
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+}
+
+@media only screen and (max-height: 732px) { 
+
+        
+}
+
+
