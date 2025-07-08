@@ -110,15 +110,18 @@ body{
         .box-main-titular h1{
             font: 60px/1 'prelo_slabextrabold';
             margin: 0 auto;
+            max-width: 550px;
         }
             .box-main-titular h1 span{
                 display: block;
                 font-size: 32px;
+                margin: 5px auto;
+                max-width: 445px;                
             }
         .box-main-titular h2{
             font: 23px / 1.2 'prelo_slabbook';
             margin: 20px auto;
-            max-width: 450px;
+            max-width: 550px;
         }
             .box-main-titular h2 span{
                 background-color: #FFF72F;
