@@ -820,7 +820,8 @@ body{
     .box-referencias-tiempo h3,
     .box-analisis-sentimiento h3,
     .box-slider-palabras h3,
-    .box-slider-sentimiento h3{
+    .box-slider-sentimiento h3,
+    .box-temas h5{
         font: 22px / 1.3 'prelo_slabbold';
         margin: 0 auto;
         text-align: center;
@@ -1540,6 +1541,19 @@ p.metodologia-flourish{
 
 @media only screen and (max-width: 1024px) {
 
+    .box-main .box-temas ul li{
+        width: 170px;
+    }
+    .box-main .item-tema img{
+        max-width: 50px;
+    }
+    .box-main .item-tema h5{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .box-main  span.separador-tema-mencionado{
+        height: 1350px;
+    }
 
 }
 
@@ -1549,3 +1563,64 @@ p.metodologia-flourish{
 }
 
 
+/** 2025 **/
+.box-temas{
+    margin-top: 40px;
+}
+    .box-temas ul{
+        list-style: none;
+        margin-top: 40px;
+        padding: 0;
+        text-align: center;
+    }
+        .box-temas ul li{
+            display: inline-block; 
+            margin-top: 20px;     
+            vertical-align: top;
+            width: 250px;
+        }
+            .box-presidente{
+                text-align: center;
+            }
+                .box-presidente img{
+                    display: block;
+                    margin: 0 auto;
+                    max-width: 70px;
+                }
+                .box-presidente h6{
+                    font: 16px / 1.1 'prelo_slabmedium';
+                    margin: 10px auto;
+                }
+                    .box-presidente h6 span{
+                        display: block;
+                        font-family: 'prelo_slabbold';
+                    }
+            .item-tema{
+                margin-bottom: 20px;
+            }
+                .item-tema img{
+                    display: inline-block;
+                    max-width: 55px;
+                    vertical-align: top;
+                }
+                .item-tema h5{
+                    border-bottom: 1px dotted #c2c2c2;
+                    display: inline-block;
+                    font: 18px/1.1 'prelo_slabmedium';
+                    padding-bottom: 10px;
+                    text-align: left;
+                    vertical-align: bottom;
+                    width: 74%;    
+                }
+                .item-tema p{
+                    font: 14px/1.5 'prelo_slabbook';
+                    text-align: left;
+                }
+        span.separador-tema-mencionado{
+            background-color: #e7e7e7;
+            display: inline-block;
+            height: 960px;
+            margin: 50px 10px 0;
+            vertical-align: top;
+            width: 1px;
+        }
