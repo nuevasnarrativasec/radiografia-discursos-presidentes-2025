@@ -1175,7 +1175,8 @@ body{
     #slider-prev-ejes,
     #slider-prev-mapas,
     #slider-prev-sentimiento,
-    #slider-prev-anuncio{
+    #slider-prev-anuncio,
+    #slider-prev-temas-mencionados{
         background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/radiografia-discursos-presidentes/img/flecha-izquierda.png') no-repeat center top;
         background-size: 100%;
         display: inline-block;
@@ -1189,7 +1190,8 @@ body{
     #slider-next-ejes,
     #slider-next-mapas,
     #slider-next-sentimiento,
-    #slider-next-anuncio{
+    #slider-next-anuncio,
+    #slider-next-temas-mencionados{
         background: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/radiografia-discursos-presidentes/img/flecha-derecha.png') no-repeat center top;
         background-size: 100%;
         display: inline-block;
@@ -1208,7 +1210,9 @@ body{
         #slider-prev-sentimiento a,
         #slider-next-sentimiento a,
         #slider-prev-anuncio a,
-        #slider-next-anuncio a{
+        #slider-next-anuncio a,
+        #slider-prev-temas-mencionados a,
+        #slider-next-temas-mencionados a{
             color: transparent;
         }
 .bxslider-ejes{
@@ -1216,20 +1220,26 @@ body{
 }
     .bxslider-ejes li img,
     .bxslider-mapas li img,
-    .bxslider-anuncio li img  {
+    .bxslider-anuncio li img,
+    ul.bxslider-temas-mencionados img.bg-presidente-tema  {
         display: block;
         max-width: 80px;
         margin: 0 auto;
     }
     .bxslider-ejes h5,
     .bxslider-mapas h5,
-    .bxslider-anuncio h5{
+    .bxslider-anuncio h5,
+    .bxslider-temas-mencionados h5{
         font: 17px / 1.3 'prelo_slabmedium';
         margin: 10px auto;
     }
+    .bxslider-temas-mencionados h5{
+        text-align: center;
+    }
     .bxslider-ejes h5 span,
     .bxslider-mapas h5 span,
-    .bxslider-anuncio h5 span {
+    .bxslider-anuncio h5 span,
+    .bxslider-temas-mencionados h5 span {
         display: block;
         font: 17px / 1.3 'prelo_slabbold';
     }
@@ -1567,17 +1577,25 @@ p.metodologia-flourish{
 .box-temas{
     margin-top: 40px;
 }
-    .box-temas ul{
+    .box-temas ul,
+    ul.temas-movil{
         list-style: none;
         margin-top: 40px;
         padding: 0;
         text-align: center;
     }
-        .box-temas ul li{
+    ul.temas-movil{
+        margin-top: 0;
+    }
+        .box-temas ul li,
+        ul.temas-movil li{
             display: inline-block; 
             margin-top: 20px;     
             vertical-align: top;
             width: 250px;
+        }
+        ul.temas-movil li{
+            width: 90%;
         }
             .box-presidente{
                 text-align: center;
@@ -1598,6 +1616,10 @@ p.metodologia-flourish{
             .item-tema{
                 margin-bottom: 20px;
             }
+                
+                ul.temas-movil .item-tema img{
+                    display: inline-block;
+                }
                 .item-tema img{
                     display: inline-block;
                     max-width: 55px;
@@ -1612,9 +1634,16 @@ p.metodologia-flourish{
                     vertical-align: bottom;
                     width: 74%;    
                 }
+                ul.temas-movil .item-tema h5{
+                    text-align: left;
+                    width: 82.5%;
+                }
                 .item-tema p{
                     font: 14px/1.5 'prelo_slabbook';
                     text-align: left;
+                }
+                ul.temas-movil .item-tema p{
+                    font-size: 1rem;
                 }
         span.separador-tema-mencionado{
             background-color: #e7e7e7;
