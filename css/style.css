@@ -1625,21 +1625,21 @@ p.metodologia-flourish{
                     display: inline-block;
                 }
                 .item-tema img{
-                    display: inline-block;
+                    display: block;
+                    margin: 5px auto 10px;
                     max-width: 55px;
-                    vertical-align: top;
+                    vertical-align: top;                    
                 }
                 .item-tema h5{
                     border-bottom: 1px dotted #c2c2c2;
                     display: inline-block;
                     font: 18px/1.1 'prelo_slabmedium';
                     padding-bottom: 10px;
-                    text-align: left;
                     vertical-align: bottom;
                     width: 74%;    
                 }
                 ul.temas-movil .item-tema h5{
-                    text-align: left;
+                    /*text-align: left;*/
                     width: 82.5%;
                 }
                 .item-tema p{
