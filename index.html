@@ -269,7 +269,7 @@
                 
             </ul>
             <div class="box-sentimiento" id="sentimiento-dina">                
-                <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/18744403"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/24447103"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
             </div>
 
             <div class="box-sentimiento" id="sentimiento-garcia">  
@@ -359,7 +359,7 @@
                             Dina Boluarte
                             <span>2025</span>
                         </h5>
-                        <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/18744403"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+                        <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/24447103"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
                     </div>
                 </li> 
             </ul>  
@@ -1233,7 +1233,7 @@
                 <span>presiona el nombre de cada presidente</span>
             </h5>
             <ul id="presidents-list-eje">
-                <li data-target="eje-toledo" class="active-eje">
+                <li data-target="eje-toledo">
                     <img src="https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes-2025/img/bg-portada-toledo-3.png?v2" alt="">
                     <p>
                         Alejandro <br> Toledo
@@ -1265,7 +1265,7 @@
                     </p>
                 </li>
                 <span class="separador"></span>
-                <li data-target="eje-dina">
+                <li data-target="eje-dina"  class="active-eje">
                     <img src="https://nuevasnarrativasec.github.io/radiografia-discursos-presidentes-2025/img/bg-portada-dina-4.png?v2" alt="">
                     <p>
                         Dina <br> Boluarte
@@ -2938,6 +2938,9 @@
                 <p>
                     Brillitt Arellan
                 </p>
+                <p>
+                    Daniel Zapata
+                </p>
             </div>
     
         </div>
@@ -3072,8 +3075,8 @@
                 });
             });
 
-            // Mostrar por defecto el eje-toledo
-            document.querySelector("li[data-target='sentimiento-toledo']").classList.add("active-sentimiento");
+            // Mostrar por defecto el eje-dina
+            document.querySelector("li[data-target='sentimiento-dina']").classList.add("active-sentimiento");
             showBox("sentimiento-toledo");
         });
     </script>
@@ -3106,11 +3109,11 @@
             setupListItems(listItemsAnuncio, "active-anuncio", boxesAnuncio);
 
             // Mostrar por defecto el eje-ollanta
-            document.querySelector("#presidents-list-eje li[data-target='eje-toledo']").classList.add("active-eje");
+            document.querySelector("#presidents-list-eje li[data-target='eje-dina']").classList.add("active-eje");
             showBox(boxesEje, "eje-toledo");
 
             // Mostrar por defecto el anuncio-ollanta
-            document.querySelector("#presidents-list-anuncio li[data-target='anuncio-toledo']").classList.add("active-anuncio");
+            document.querySelector("#presidents-list-anuncio li[data-target='anuncio-dina']").classList.add("active-anuncio");
             showBox(boxesAnuncio, "anuncio-toledo");
         });
 
